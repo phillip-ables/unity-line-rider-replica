@@ -263,6 +263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd87d76165df0f4598e96a7f705241c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lineRend: {fileID: 1700106021}
+  lineCol: {fileID: 1700106020}
 --- !u!68 &1700106020
 EdgeCollider2D:
   m_ObjectHideFlags: 0
