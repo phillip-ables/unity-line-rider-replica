@@ -17,7 +17,18 @@ public class Line : MonoBehaviour {
         //by the skin of my teeth did i make it
         if(Vector2.Distance(points.Last(), mousePos) > .1f)
         {
-            setPoints(mousePoint);
+            setPoint(mousePos);
+        }
+    }
+
+    void setPoint(Vector2 point)
+    {
+        lineRend.numPositions = points.Count;
+        lineRend.SetPosition(points.Count - 1, point);
+
+        if(points.Count > 1)
+        {
+            lineCol.points = points.ToArray();
         }
     }
 
