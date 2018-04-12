@@ -14,6 +14,7 @@ public class Head : MonoBehaviour {
     {
 
         transform.Translate(Vector2.up* speed * Time.deltaTime, Space.Self);
+        transform.Rotate(Vector3.forward * rotSpeed * Time.deltaTime, Space.Self);
     }
 
 }
