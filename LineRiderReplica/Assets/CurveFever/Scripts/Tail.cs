@@ -5,6 +5,7 @@ using UnityEngine;
 public class Tail : MonoBehaviour {
     LineRenderer rend;
     List<Vector2> line;
+    public Transform head;
     public float pointDistance;
 
     private void Start()
@@ -16,7 +17,7 @@ public class Tail : MonoBehaviour {
 
     private void Update()
     {
-        if(Vector2.Distance(line.Last(), transform.position) > pointDistance)
+        if(Vector2.Distance(line.Last(), head.position) > pointDistance)
         {
             SetPoint();
         }
@@ -24,8 +25,8 @@ public class Tail : MonoBehaviour {
 
     void SetPoint()
     {
-        line.Add(transform.position);
+        line.Add(head.position);
         rend.positionCount = line.Count;
-        rend.SetPosition(line.Count - 1, transform.position);
+        rend.SetPosition(line.Count - 1, head.position);
     }
 }
