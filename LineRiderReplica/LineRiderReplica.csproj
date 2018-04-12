@@ -223,6 +223,7 @@
     <Compile Include="Assets\BashfulBritney\Scripts\Line.cs" />
     <Compile Include="Assets\BashfulBritney\Scripts\LineController.cs" />
     <Compile Include="Assets\BashfulBritney\Scripts\Player.cs" />
+    <Compile Include="Assets\CurveFever\Scripts\Tail.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
