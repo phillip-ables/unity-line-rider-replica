@@ -13,4 +13,11 @@ public class Tail : MonoBehaviour {
         line.Add(transform.position);
     }
 
+    private void Update()
+    {
+        if(Vector2.Distance(line.Last(), transform.position) > pointDistance)
+        {
+            SetPoint();
+        }
+    }
 }
