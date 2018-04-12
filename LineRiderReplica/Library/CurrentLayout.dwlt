@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 119
+  controlID: 13
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 120
+  controlID: 14
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 36
+  controlID: 129
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -465,8 +465,8 @@ MonoBehaviour:
     height: 275
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba270000
-    m_LastClickedID: 10170
+    m_SelectedIDs: f4eeffff
+    m_LastClickedID: -4364
     m_ExpandedIDs: a6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -528,18 +528,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/CurveFever/Material
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 53
   m_LastFolders:
-  - Assets/CurveFever/Material
+  - Assets
   m_LastFoldersGridSize: 53
   m_LastProjectPath: C:\Users\phill\Desktop\code\unity-line-rider-replica\LineRiderReplica
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fe270000
-    m_LastClickedID: 10238
+    m_SelectedIDs: 2c270000
+    m_LastClickedID: 10028
     m_ExpandedIDs: 000000002c2700007e27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
