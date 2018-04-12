@@ -10,7 +10,8 @@ public class Tail : MonoBehaviour {
     private void Start()
     {
         rend = GetComponent<LineRenderer>();
-        line.Add(transform.position);
+        line = new List<Vector2>();
+        SetPoint();
     }
 
     private void Update()
@@ -19,5 +20,12 @@ public class Tail : MonoBehaviour {
         {
             SetPoint();
         }
+    }
+
+    void SetPoint()
+    {
+        line.Add(transform.position);
+        rend.positionCount = line.Count;
+        rend.SetPosition(line.Count - 1, transform.position);
     }
 }
