@@ -13,7 +13,7 @@ public class LineController : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             GameObject lineGo = Instantiate(linePrefab);
-            activeLine = linePrefab.GetComponent<Line>();
+            activeLine = lineGo.GetComponent<Line>();
         }
         if (Input.GetMouseButtonUp(0))
         {
